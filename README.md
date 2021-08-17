@@ -9,4 +9,4 @@ A Jazz concert is held in a big auditorium and there are 20 different recording 
 2. Hence, the first step that we do is to implement PCA to reduce the dimensions. We can also look at the Eigen Values to determine the actual number of sources that are present in the 20 sound clips.
 3. PCA Eigen Values show that there are 4 distinct sources that are present in 20 sound clips. Hence, when we use PCA whitening, we can set 4 as rank of the whitening matrix.
 4. The next step is to implement the ICA Algorithm using the following update rules:
-![plot](./ICA-Update_Rules.JPG)
+![plot](./ICA-Update-Rules.JPG)
